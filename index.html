@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="招招的个人小站：一只4个月大的三花猫，黏人、调皮、爱跑酷。" />
+  <meta name="theme-color" content="#fffaf3" />
+  <title>招招的小宇宙 🐾</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="回到顶部">
+      <span class="brand-dot">🐾</span>
+      <span>招招的小宇宙</span>
+    </a>
+    <nav class="nav" aria-label="页面导航">
+      <a href="#about">认识招招</a>
+      <a href="#album">成长相册</a>
+      <a href="#skills">拿手绝活</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy">
+        <div class="eyebrow">ZHAOZHAO'S LITTLE WORLD</div>
+        <h1>你好呀，<br><span>我是招招</span>。</h1>
+        <p class="hero-sub">
+          4个月大的三花小女生。黏人、调皮、爱跑酷，
+          生活习惯也很不错。最大的爱好是贴贴，偶尔顺便咬你一口。
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#album">从小看到大</a>
+          <button class="btn ghost" id="meowBtn" type="button">召唤招招</button>
+        </div>
+        <div class="tiny-note" id="meowText" aria-live="polite">“今天也要贴贴。”</div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="tape tape-a"></div>
+        <div class="tape tape-b"></div>
+        <figure class="polaroid hero-polaroid">
+          <img src="./assets/zhaozhao-04.png" alt="招招坐着看镜头的照片" />
+          <figcaption>招招 · 4个月 ✿</figcaption>
+        </figure>
+        <span class="doodle-star">✦</span>
+        <span class="doodle-heart">♡</span>
+      </div>
+    </section>
+
+    <section id="about" class="section about-grid">
+      <article class="card profile-card">
+        <div class="card-label">ABOUT HER</div>
+        <h2>认识一下招招</h2>
+        <div class="profile-list">
+          <div><span>名字</span><strong>招招</strong></div>
+          <div><span>性别</span><strong>女孩子</strong></div>
+          <div><span>年龄</span><strong>4个月</strong></div>
+          <div><span>品种</span><strong>三花猫</strong></div>
+        </div>
+      </article>
+
+      <article class="card quote-card">
+        <p class="quote-mark">“</p>
+        <p class="big-quote">黏人到会贴贴，<br>调皮到会跑酷。</p>
+        <p class="quote-foot">—— 招招的日常总结</p>
+      </article>
+    </section>
+
+    <section id="album" class="section">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">GROWING UP</div>
+          <h2>从小到大的五张照片</h2>
+        </div>
+        <p>点击照片可以放大查看。</p>
+      </div>
+
+      <div class="timeline">
+        <button class="photo-card tilt-a" data-src="./assets/zhaozhao-01.png" data-caption="刚来时，小小一只。">
+          <img src="./assets/zhaozhao-01.png" alt="招招小时候站在地板上的照片" />
+          <span class="photo-note">01 · 小小一只</span>
+        </button>
+        <button class="photo-card tilt-b" data-src="./assets/zhaozhao-02.png" data-caption="开始熟悉家里的每一个角落。">
+          <img src="./assets/zhaozhao-02.png" alt="招招趴在床边的照片" />
+          <span class="photo-note">02 · 偷偷观察</span>
+        </button>
+        <button class="photo-card tilt-c" data-src="./assets/zhaozhao-03.png" data-caption="已经有一点点大猫的样子了。">
+          <img src="./assets/zhaozhao-03.png" alt="招招躺在猫抓板上的照片" />
+          <span class="photo-note">03 · 日光浴</span>
+        </button>
+        <button class="photo-card tilt-a" data-src="./assets/zhaozhao-04.png" data-caption="现在的招招：精神满满，随时准备跑酷。">
+          <img src="./assets/zhaozhao-04.png" alt="招招坐着看镜头的照片" />
+          <span class="photo-note">04 · 长大一点</span>
+        </button>
+        <button class="photo-card tilt-b" data-src="./assets/zhaozhao-05.png" data-caption="一双大眼睛，专门负责把人看心软。">
+          <img src="./assets/zhaozhao-05.png" alt="招招在地板上抬头看的照片" />
+          <span class="photo-note">05 · 大眼睛招招</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-wrap">
+      <div class="section-head compact">
+        <div>
+          <div class="eyebrow">SPECIAL SKILLS</div>
+          <h2>招招的拿手绝活</h2>
+        </div>
+      </div>
+      <div class="skills-grid">
+        <article class="skill card">
+          <div class="icon">૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა</div>
+          <h3>卖萌</h3>
+          <p>只要抬头看你三秒，大概率什么都能被原谅。</p>
+        </article>
+        <article class="skill card">
+          <div class="icon">♡</div>
+          <h3>贴贴</h3>
+          <p>黏人属性点满，喜欢靠近、蹭蹭、陪着你。</p>
+        </article>
+        <article class="skill card">
+          <div class="icon">⚡</div>
+          <h3>跑酷</h3>
+          <p>家里每一条路线都能临时变成竞速赛道。</p>
+        </article>
+        <article class="skill card">
+          <div class="icon">ᵔᴗᵔ</div>
+          <h3>偶尔咬人</h3>
+          <p>通常不是生气，只是爱得有点“带牙齿”。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section footer-card">
+      <div>
+        <div class="eyebrow">THANKS FOR VISITING</div>
+        <h2>下次再来找招招玩。</h2>
+      </div>
+      <a class="btn primary" href="#top">回到顶部 ↑</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Made with ♡ for 招招</span>
+    <span>一只认真长大的三花小猫</span>
+  </footer>
+
+  <dialog id="lightbox" class="lightbox">
+    <button class="lightbox-close" id="closeLightbox" aria-label="关闭">×</button>
+    <img id="lightboxImg" alt="" />
+    <p id="lightboxCaption"></p>
+  </dialog>
+
+  <script src="./script.js"></script>
+</body>
+</html>
